@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+html body {
+   
+   height: 100%;
+}
+
+
+
+body {
+    font-family: sans-serif;
+    background-color: goldenrod; 
+}
+
+/* Main */
+
+.main {
+    max-width: 1280px;
+    margin: 0 auto; /*lo centro*/
+    background-color: white;
+    box-shadow: 1px 1px 2px black;
+    min-height: 50vh;
+    padding: 2rem;
+}
+
+.header {
+    background-color: black;
+    background-image: url('adi-goldstein-sdtnZ4LgbWk-unsplash.jpg');
+    background-size: cover; /*lo posiciono*/
+    background-position: center;
+    margin: auto;
+    justify-content: center;
+    padding: 5rem;
+
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    gap: .5rem; /*Separar, search de button*/
+    
+    
+}
+
+
+.search {
+    padding: .5rem;
+    flex-grow: 1;
+    font-size: 1rem;
+
+}
+
+.songs {
+    padding: 0;
+    list-style: none;
+}
+
+.song {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.content {
+    background-color:rgb(238, 233, 221);
+    padding: 1rem 3rem;
+}
+
+#show {
+    background-color: goldenrod;
+    border: none;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
